@@ -1,0 +1,32 @@
+modelo 1: 1 palavra
+modelo 2: 3 palavras
+modelo 3: 12 palavras
+modelo 4: 12 palavras + vacinacao + dados demograficos
+
+mudar jeito de cruzamento das palavras com a target: anomes -1 para evitar leakage
+nao pegar o ano de 2017, apenas comecar a partir de 201802
+
+dados vacinacao
+http://tabnet.datasus.gov.br/cgi/dhdat.exe?bd_pni/cpnibr.def
+soh tem por ano, portanto usar medida de vacinacao do ano anterior
+vars:
+max taxa de vacinacao entre as vacinas que contemplam sarampo
+max taxa de vacinacao entre todas as vacinas
+
+dados demograficos
+densidade populacional, condicoes climaticas, taxa de mortalidade infantil
+
+mortalidade
+ate 10 anos - maior parte concentrada em ate 5 anos (https://www.saude.sp.gov.br/resources/cve-centro-de-vigilancia-epidemiologica/areas-de-vigilancia/doencas-de-transmissao-respiratoria/sarampo/sarampo.html)(https://www.paho.org/pt/topicos/sarampo)
+http://tabnet.datasus.gov.br/cgi/deftohtm.exe?sim/cnv/obt10uf.def
+quantidade de casos no BR
+
+condicoes climaticas - dados numa pasta em downloads
+https://bdmep.inmet.gov.br/#
+max temperatura media mensal
+min temperatura media mensal
+max umidade do ar
+min umidade do ar
+max preciptacao total mensal
+min preciptacao total mensal
+

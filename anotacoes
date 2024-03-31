@@ -23,10 +23,14 @@ quantidade de casos no BR
 
 condicoes climaticas - dados numa pasta em downloads
 https://bdmep.inmet.gov.br/#
+https://www.kaggle.com/datasets/gregoryoliveira/brazil-weather-information-by-inmet/data
 max temperatura media mensal
 min temperatura media mensal
 max umidade do ar
 min umidade do ar
 max preciptacao total mensal
-min preciptacao total mensal
 
+populacao total - projecoes 
+https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html?=&t=o-que-e
+quantidade de homens por ano
+quantidade de mulheres por ano
